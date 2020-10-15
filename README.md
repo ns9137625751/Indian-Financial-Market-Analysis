@@ -67,7 +67,7 @@ The project will have a frontend page which will talk to a backend service which
 ### Frontend
 The frontend will consist of lesser than 3 pages. Each page will have a form input and will plot a graph as the output. They will make simple AJAX/GET calls to fetch data from the backend service. To make the AJAX/GET requests, they will use JQuery. To plot the graphs, they will use D3JS which is a popular graphing tool.
 ### Backend
-They will write the backend service in Python and will use python&#39;s SimpleHTTPService module instead of a complex framework such as Django. They will make use of NSEpy which is an open-source library to fetch data about the highs and lows for scripts. They will make use of a SQL/No-SQL database to cache the data from NSEPy.
+They will write the backend Service in Python and will use python&#39;s SimpleHTTPService module instead of a complex framework such as Django. They will make use of NSEpy which is an open-source library to fetch data about the highs and lows for Scripts. They will make use of a SQL/No-SQL database to cache the data from NSEPy.
 
 ## Checkpoints
 1. Fetch data via the library - NSEpy.
